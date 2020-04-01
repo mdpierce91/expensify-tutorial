@@ -64,11 +64,11 @@ test('should handle date changes', () => {
 test('should handle focus changes', () => {
     let focus = 'startDate';
     wrapper.find('DateRangePicker').prop('onFocusChange')(focus);
-    expect(wrapper.state('calenderFocused')).toBe(focus);
+    expect(wrapper.state('calendarFocused')).toBe(focus);
     focus = 'endDate';
     wrapper.find('DateRangePicker').prop('onFocusChange')(focus);
-    expect(wrapper.state('calenderFocused')).toBe(focus);
+    expect(wrapper.state('calendarFocused')).toBe(focus);
     focus = null;
     wrapper.find('DateRangePicker').prop('onFocusChange')(focus);
-    expect(wrapper.state('calenderFocused')).toBe(focus);
+    expect(wrapper.state('calendarFocused')).toBe(focus);
 })
