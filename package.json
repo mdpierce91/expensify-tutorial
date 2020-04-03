@@ -1,6 +1,10 @@
 {
     "name": "expensify",
     "version": "1.0.0",
+    "engines": {
+        "node": "8.11.x",
+        "yarn": "1.9.x"
+    },
     "main": "index.js",
     "repository": "https://github.com/mdpierce91/indecision-app-tutorial.git",
     "author": "Mark <mdpierce91@gmail.com>",
